@@ -17,6 +17,7 @@ const DataTable = () => {
                 setData(response.data);
                 setFilteredData(response.data); // Initialize filtered data with all data
                 setLoading(false);
+                
             })
             .catch((error) => {
                 setError(error);
